@@ -3,15 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
-.artbox{
-       background-color: #FBF7F6;
-       padding: 120px 0 89px;
+.artbox--application{
+    background-color: #EFEFEF;
+    padding: 150px 0 100px;
+    background-image: url(/assets/img/bg-wave.png);
+    background-repeat: no-repeat;
 }
-.artbox--content {
+.artbox--content-form {
     display: flex;
-    
+    max-width: calc(1604px + 15px * 2);
+    width: 100%;
+    margin: 0 auto;    
+    position: relative;
 }
 .artbox--form {
+    background-color: #FBF7F6;
     display: flex;
     width: 808px;
     height: 351px;
@@ -19,15 +25,23 @@
     margin: 0 auto;
     border-radius: 15px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-
+    z-index: 5;
+}
+.artbox--application-flowers {
+    position: absolute;
+    bottom:10px; left: -111px;
+    z-index: 0;
+}
+.form--application {
+    z-index: 2;
 }
 .form--application-text {
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0.04em;
-text-align: left;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: left;
 }
 .form--application-text {
     padding: 31px 32px 18px 40px;
@@ -35,6 +49,7 @@ text-align: left;
 .form--input {
     margin: 0 0 0 38px;
     padding: 0 36px 0 0;
+    z-index: 2;
 }
 .form--input-top {
     width: 144px;
