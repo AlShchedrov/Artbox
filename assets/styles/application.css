@@ -24,7 +24,7 @@
 }
 .artbox--application-flowers {
     position: absolute;
-    bottom:10px; left: -111px;
+    bottom:15px; left: 50px;
     z-index: 0;
 }
 .form--application {

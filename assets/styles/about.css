@@ -1,0 +1,167 @@
+.offer {
+    display: flex;
+}
+.offer--tutorial {
+    background-color: #F9F0EE;
+    text-align: center;
+    border-right: 1px solid #C4C4C4;
+}
+.offer--catalog {
+    background-color: #F9F0EE;
+    text-align: center;
+}
+.offer--tutorial-title{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 39px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 30px 200px 10px;
+}
+.offer--tutorial-subtitle {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 0 200px 20px;
+}
+.offer--tutorial-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 63px;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+    border: none;
+    margin: 20px auto 98px;
+}
+.offer--catalog-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 63px;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+    border: none;
+    margin: 20px auto 98px;
+}
+/*----между блоками-----*/
+.master--classes {
+    display: flex;
+    background-color: #EFEFEF;
+}
+.master--classes-title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    padding: 100px 0 55px 133px;
+}
+.master--classes-link {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    margin: 110px 16px 0 785px;
+}
+.master--classes-link-icon {
+    margin: 113px 0 0 0;
+}
+.offer--creativity {
+    background-color: #EFEFEF;
+    padding: 0 0 50px;
+}
+.creativity {
+    background-image: url(/assets/img/about/creativity-img.png);
+    height:  529px;    
+}
+.creativity--catalog {
+    max-width: 800px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.607);
+    backdrop-filter: blur(70px);
+    margin: 0 0 20px 0;
+}
+.creativity--catalog-title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #371030;
+    padding: 138px 150px 29px 133px;
+}
+.creativity--catalog-description {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    padding: 0 160px 40px 133px;
+}
+.creativity--catalog-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 63px;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+    border: none;
+    margin: 20px 0 50px 133px;
+}
+.creativity--button-findout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 67px;
+    background: #FFC1AE;
+    box-shadow: 3px 3px 0px 3px #E4B8AB;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color:#923F25;
+    border: none;
+    margin: 55px auto;
+}
+
