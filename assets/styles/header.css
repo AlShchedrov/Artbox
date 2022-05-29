@@ -1,0 +1,34 @@
+.content {
+    max-width: calc(1332px + 15px * 2);
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    background-color: #FBF7F6;
+}
+.header--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 120px;
+    height: 100%;
+    width: 100%;    
+}
+.header--logo {
+    margin: 0 47px 0 0;
+}
+.header--nav a {
+    padding: 0 15px 0 0;
+}
+.header--nav a:last-child {
+    margin: 0 116px 0 0;
+}
+.header--tel-img {
+    margin: 0 16px 0;
+}
+.header--phone-number {
+    margin: 0 80px 0 0;
+}
+.header--login {
+    margin: 0 24px 0 0;
+}
