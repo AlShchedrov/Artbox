@@ -1,11 +1,14 @@
 @import url(/assets/styles/application.css);
+@import url(/assets/styles/header.css);
+@import url(/assets/styles/about.css);
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 main {
-    max-width: calc(1604px + 15px * 2);
+    max-width: calc(1570px + 15px * 2);
     width: 100%;
     margin: 0 auto;
 }
@@ -17,7 +20,7 @@ a {
     color: #86878B;
 }
 .content {
-    max-width: calc(1332px + 15px * 2);
+    max-width: calc(1302px + 15px * 2);
     width: 100%;
     margin: 0 auto;
 }
