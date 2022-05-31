@@ -1,0 +1,27 @@
+.products--content {
+    background-color: #EFEFEF;
+}
+.products--classes {
+    display: flex;
+}
+.products--title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    padding: 100px 0 55px 133px;
+}
+.products--link {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #371030;
+    margin: 110px 16px 0 785px;
+}
+.products--link-icon {
+    margin: 113px 0 0 0;
+}
