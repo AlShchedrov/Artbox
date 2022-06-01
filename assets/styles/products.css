@@ -11,7 +11,7 @@
     line-height: 37px;
     letter-spacing: 0.04em;
     color: #371030;
-    padding: 100px 0 55px 133px;
+    padding: 0 0 55px 133px;
 }
 .products--link {
     font-family: Montserrat;
@@ -20,8 +20,8 @@
     line-height: 20px;
     letter-spacing: 0.04em;
     color: #371030;
-    margin: 110px 16px 0 785px;
+    margin: 0 16px 0 550px;
 }
 .products--link-icon {
-    margin: 113px 0 0 0;
+    margin: 3px 0 0;
 }
